@@ -39,11 +39,11 @@ describe('pridanie admina', () => {
   cy.get('.oxd-autocomplete-dropdown > :nth-child(1)').click()
 
   //Username
-  cy.get(':nth-child(4) > .oxd-input-group > :nth-child(2) > .oxd-input').type("testikMM1")
+  cy.get(':nth-child(4) > .oxd-input-group > :nth-child(2) > .oxd-input').type("testikMMM1")
   //password
-  cy.get('.user-password-cell > .oxd-input-group > :nth-child(2) > .oxd-input').type("testikMM1")
+  cy.get('.user-password-cell > .oxd-input-group > :nth-child(2) > .oxd-input').type("testikMMM1")
   //passwordConfirm
-  cy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input').type("testikMM1")
+  cy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input').type("testikMMM1")
   //Save
   cy.get('.oxd-button--secondary').click()
   })
