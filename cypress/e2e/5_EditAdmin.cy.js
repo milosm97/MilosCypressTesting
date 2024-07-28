@@ -3,7 +3,7 @@ import 'cypress-xpath';
 /// <reference types="cypress" /> 
 
 describe('login', () => {
-  it('login test', () => {
+  it('uprava admina', () => {
     
   cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
