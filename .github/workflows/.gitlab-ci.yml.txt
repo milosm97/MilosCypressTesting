@@ -6,6 +6,6 @@ cypress_tests:
   image: cypress/browsers:node14.17.6-chrome91-ff89
   script:
     - npm install
-    - npx cypress run
+    - npx cypress run --browser chrome
   only:
     - master
